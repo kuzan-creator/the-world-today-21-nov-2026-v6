@@ -4,7 +4,8 @@ One 1024x1024 front page, 43 dated stories, 13 illustrated cards.
 Drawn with Pillow. No network, no randomness, no clock.
 v6 restores the first v5 design: heroes carry a red banner headline, a stat
 badge and a source caption inside their picture, small cards carry a coloured
-tag strip, and the map is drawn as real continents."""
+tag strip, and the map is drawn as real continents. The rendered entry.png is
+byte-identical to that first v5 image (sha256 61f96cd7...)."""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
